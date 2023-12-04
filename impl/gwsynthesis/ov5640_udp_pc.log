@@ -1,0 +1,186 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\arp.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\arp_rx.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\arp_tx.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\cmos_capture_data.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\crc32_d8.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\eth_ctrl.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\eth_top.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\fifo_hs\fifo_hs.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\fifo_hs\sync_fifo_u.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll_txclk.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\i2c_dri.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\i2c_ov5640_rgb565_cfg.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\img_data_pkt.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v'
+Undeclared symbol 'cam_pclk_g', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":127)
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\start_transfer_ctrl.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\udp.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\udp_rx.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\udp_tx.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\bright.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\key_filter.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\signal_syn.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_2.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_3.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_4.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_5.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_6.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_7.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\VIP_RGB888_YCbCr444.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\data_sync_ext.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\duibi.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v'
+Undeclared symbol 'vs_sel', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":159)
+Undeclared symbol 'de_sel', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":160)
+Undeclared symbol 'data_sel', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":161)
+Undeclared symbol 'data_en_sel', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":162)
+WARN  (EX3638) : 'vs_sel' is already implicitly declared on line 159("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":188)
+WARN  (EX3638) : 'de_sel' is already implicitly declared on line 160("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":188)
+WARN  (EX3638) : 'data_en_sel' is already implicitly declared on line 162("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":188)
+WARN  (EX3638) : 'data_sel' is already implicitly declared on line 161("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":189)
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\matrix.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\move_center.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sqrt.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\vip\vip.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\ycbcr2rgb.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\fifo_hs\couper.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v'
+Undeclared symbol 'pose', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v":35)
+Undeclared symbol 'rd_en1', assumed default net type 'wire'("C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v":45)
+WARN  (EX3638) : 'rd_en1' is already implicitly declared on line 45("C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v":117)
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\couper.v'
+Analyzing Verilog file 'C:\Users\Legion\Desktop\final_udp\src\vip\pinjie.v'
+Compiling module 'ov5640_udp_pc'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":23)
+Compiling module 'clk_wiz_0'("C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll.v":10)
+Compiling module 'i2c_ov5640_rgb565_cfg'("C:\Users\Legion\Desktop\final_udp\src\i2c_ov5640_rgb565_cfg.v":24)
+WARN  (EX3670) : Actual bit length 11 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":134)
+WARN  (EX3670) : Actual bit length 11 differs from formal bit length 13 for port 'cmos_v_pixel'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":135)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'total_h_pixel'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":136)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'total_v_pixel'("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":137)
+Compiling module 'i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b010111110101111000010000000,I2C_FREQ=20'b00111101000010010000)'("C:\Users\Legion\Desktop\final_udp\src\i2c_dri.v":24)
+Compiling module 'cmos_capture_data'("C:\Users\Legion\Desktop\final_udp\src\cmos_capture_data.v":23)
+Compiling module 'vip'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\vip.v":1)
+Compiling module 'VIP_RGB888_YCbCr444'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\VIP_RGB888_YCbCr444.v":1)
+Compiling module 'sobel(COL=1280,ROW=960)'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":26)
+Compiling module 'data_sync_ext'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\data_sync_ext.v":21)
+Compiling module 'matrix(ROW=960)'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\matrix.v":23)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\sync_fifo_u.v":0)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\sync_fifo_u.v":0)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":148)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":156)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":164)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":196)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":212)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":220)
+Compiling module 'sqrt'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sqrt.v":23)
+WARN  (EX3670) : Actual bit length 24 differs from formal bit length 16 for port 'data_o'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":252)
+Compiling module 'move_center(COL=1280,ROW=960,DW=8)'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\move_center.v":23)
+WARN  (EX3670) : Actual bit length 24 differs from formal bit length 8 for port 'i_data'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v":279)
+Compiling module 'img_sel'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":1)
+Compiling module 'key_filter'("C:\Users\Legion\Desktop\final_udp\src\vip\key_filter.v":1)
+Compiling module 'bright'("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":58)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":59)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":60)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":64)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":65)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":66)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":70)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":71)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":72)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":76)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":77)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":78)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":82)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":83)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":84)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":88)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":89)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":90)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":94)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":95)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Legion\Desktop\final_udp\src\vip\bright.v":96)
+Compiling module 'duibi'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\duibi.v":1)
+Compiling module 'Curve_Contrast_Array_2'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_2.v":2)
+Compiling module 'Curve_Contrast_Array_3'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_3.v":2)
+Compiling module 'Curve_Contrast_Array_4'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_4.v":2)
+Compiling module 'Curve_Contrast_Array_5'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_5.v":2)
+Compiling module 'Curve_Contrast_Array_6'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_6.v":2)
+Compiling module 'Curve_Contrast_Array_7'("C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_7.v":2)
+Compiling module 'ycbcr_to_rgb'("C:\Users\Legion\Desktop\final_udp\src\vip\ycbcr2rgb.v":2)
+Compiling module 'pinjie'("C:\Users\Legion\Desktop\final_udp\src\vip\pinjie.v":2)
+Compiling module 'couper(IW=1280,IH=960,DW=16,COUPER_W=640,COUPER_V=480,HL_ZONE=0,VU_ZONE=0)'("C:\Users\Legion\Desktop\final_udp\src\vip\couper.v":26)
+Compiling module 'couper(IW=1280,IH=960,DW=16,COUPER_W=640,COUPER_V=480,HL_ZONE=340,VU_ZONE=0)'("C:\Users\Legion\Desktop\final_udp\src\vip\couper.v":26)
+WARN  (EX3073) : Port 'Almost_Empty' remains unconnected for this instance("C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v":50)
+Compiling module 'cmos_out'("C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v":1)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\couper.v":0)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\couper.v":0)
+WARN  (EX2565) : Input 'sobel_vs' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_de' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data_en' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[15]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[14]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[13]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[12]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[11]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[10]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[9]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[8]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+WARN  (EX2565) : Input 'sobel_data[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v":167)
+Compiling module 'img_data_pkt'("C:\Users\Legion\Desktop\final_udp\src\img_data_pkt.v":23)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\fifo_hs.v":0)
+Compiling module '**'("C:\Users\Legion\Desktop\final_udp\src\fifo_hs\fifo_hs.v":0)
+WARN  (EX3670) : Actual bit length 10 differs from formal bit length 14 for port 'Rnum'("C:\Users\Legion\Desktop\final_udp\src\img_data_pkt.v":206)
+Compiling module 'start_transfer_ctrl'("C:\Users\Legion\Desktop\final_udp\src\start_transfer_ctrl.v":23)
+Compiling module 'eth_top(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010,DES_MAC=48'b111111111111111111111111111111111111111111111111,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\Legion\Desktop\final_udp\src\eth_top.v":23)
+Compiling module 'Gowin_rPLL'("C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll_txclk.v":10)
+Compiling module 'arp(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010,DES_MAC=48'b111111111111111111111111111111111111111111111111,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\Legion\Desktop\final_udp\src\arp.v":23)
+Compiling module 'arp_rx(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010)'("C:\Users\Legion\Desktop\final_udp\src\arp_rx.v":23)
+Compiling module 'arp_tx(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010,DES_MAC=48'b111111111111111111111111111111111111111111111111,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\Legion\Desktop\final_udp\src\arp_tx.v":23)
+Compiling module 'crc32_d8'("C:\Users\Legion\Desktop\final_udp\src\crc32_d8.v":22)
+Compiling module 'udp(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010,DES_MAC=48'b111111111111111111111111111111111111111111111111,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\Legion\Desktop\final_udp\src\udp.v":23)
+Compiling module 'udp_rx(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010)'("C:\Users\Legion\Desktop\final_udp\src\udp_rx.v":23)
+Compiling module 'udp_tx(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000000000100001010,DES_MAC=48'b111111111111111111111111111111111111111111111111,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\Legion\Desktop\final_udp\src\udp_tx.v":23)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\Legion\Desktop\final_udp\src\udp_tx.v":347)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\Legion\Desktop\final_udp\src\udp_tx.v":377)
+Compiling module 'eth_ctrl'("C:\Users\Legion\Desktop\final_udp\src\eth_ctrl.v":23)
+NOTE  (EX0101) : Current top module is "ov5640_udp_pc"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input gmii_rx_er is unused("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":50)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "udp_rx" instantiated to "u_udp_rx" is swept in optimizing("C:\Users\Legion\Desktop\final_udp\src\udp.v":85)
+WARN  (NL0002) : The module "start_transfer_ctrl" instantiated to "u_start_transfer_ctrl" is swept in optimizing("C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v":228)
+WARN  (NL0002) : The module "Curve_Contrast_Array_6" instantiated to "Curve_Contrast_Array_6_u0" is swept in optimizing("C:\Users\Legion\Desktop\final_udp\src\vip\vip\duibi.v":83)
+[95%] Generate netlist file "C:\Users\Legion\Desktop\final_udp\impl\gwsynthesis\ov5640_udp_pc.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "cam_pclk_g" and "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "cam_pclk_g"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "wfull_val"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "gmii_rx_clk" and "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "gmii_rx_clk"
+[100%] Generate report file "C:\Users\Legion\Desktop\final_udp\impl\gwsynthesis\ov5640_udp_pc_syn.rpt.html" completed
+GowinSynthesis finish

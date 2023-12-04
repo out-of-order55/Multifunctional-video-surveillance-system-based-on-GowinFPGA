@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="async_fifo_1024x32b" Register="125" Alu="41" Lut="152" Bsram="16" Ssram="8"/>

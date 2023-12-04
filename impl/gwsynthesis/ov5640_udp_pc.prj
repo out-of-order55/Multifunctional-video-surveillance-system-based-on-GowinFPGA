@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\arp.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\arp_rx.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\arp_tx.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\cmos_capture_data.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\crc32_d8.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\eth_ctrl.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\eth_top.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\fifo_hs\fifo_hs.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\fifo_hs\sync_fifo_u.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\gowin_rpll\gowin_rpll_txclk.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\i2c_dri.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\i2c_ov5640_rgb565_cfg.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\img_data_pkt.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\start_transfer_ctrl.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\udp.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\udp_rx.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\udp_tx.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\bright.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\key_filter.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\signal_syn.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_2.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_3.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_4.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_5.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_6.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\Curve_Contrast_Array_7.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\VIP_RGB888_YCbCr444.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\data_sync_ext.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\duibi.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\img_sel.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\matrix.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\move_center.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sobel.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\sobel\sqrt.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\vip\vip.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\ycbcr2rgb.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\fifo_hs\couper.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\cmos_out.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\couper.v" type="verilog"/>
+        <File path="C:\Users\Legion\Desktop\final_udp\src\vip\pinjie.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Legion\Desktop\final_udp\impl\gwsynthesis\ov5640_udp_pc.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="ov5640_udp_pc"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

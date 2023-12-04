@@ -1,0 +1,37 @@
+Reading netlist file: "C:\Users\Legion\Desktop\final_udp\impl\gwsynthesis\ov5640_udp_pc.vg"
+Parsing netlist file "C:\Users\Legion\Desktop\final_udp\impl\gwsynthesis\ov5640_udp_pc.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\Legion\Desktop\final_udp\src\ov5640_udp_pc.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dri_clk_2" and "u_clk_wiz_0/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "cam_pclk_g" and "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "cam_pclk_g"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "u_img_data_pkt/async_fifo_1024x32b_inst/fifo_inst/wfull_val"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "gmii_rx_clk" and "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "u_eth_top/tx_clk_inst/rpll_inst/CLKOUT.default_gen_clk" and "gmii_rx_clk"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'gmii_rx_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\Legion\Desktop\final_udp\impl\pnr\ov5640_udp_pc.power.html" completed
+Generate file "C:\Users\Legion\Desktop\final_udp\impl\pnr\ov5640_udp_pc.pin.html" completed
+Generate file "C:\Users\Legion\Desktop\final_udp\impl\pnr\ov5640_udp_pc.rpt.html" completed
+Generate file "C:\Users\Legion\Desktop\final_udp\impl\pnr\ov5640_udp_pc.rpt.txt" completed
+Generate file "C:\Users\Legion\Desktop\final_udp\impl\pnr\ov5640_udp_pc.tr.html" completed
+Thu Nov 30 10:55:57 2023
+

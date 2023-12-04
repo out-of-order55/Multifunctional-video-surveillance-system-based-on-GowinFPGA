@@ -1,0 +1,108 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.11 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Device Version: C
+//Created Time: Sun 10 08 16:39:07 2023
+IO_LOC "key_img_sel" P7; 
+IO_LOC "key_sobel_sel" E10;
+IO_LOC "key_bright_sel" D11;
+IO_LOC "key_duibi_sel" J11;
+IO_LOC "key_pinjei_sel" A9;
+//IO_LOC "key[5]" E14;
+//
+//key_img_sel
+//key_sobel_sel
+//key_bright_sel
+//key_duibi_sel
+
+
+IO_PORT "key_img_sel" IO_TYPE=LVCMOS33;
+IO_PORT "key_sobel_sel" IO_TYPE=LVCMOS33;
+IO_PORT "key_bright_sel" IO_TYPE=LVCMOS33;
+IO_PORT "key_duibi_sel" IO_TYPE=LVCMOS33;
+IO_PORT "key_pinjei_sel" IO_TYPE=LVCMOS33;
+//IO_PORT "key[5]" IO_TYPE=LVCMOS33;
+
+IO_LOC "cam_scl" L14;
+IO_PORT "cam_scl" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "cam_pwdn" P15;
+IO_PORT "cam_pwdn" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "cam_rst_n" N15;
+IO_PORT "cam_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "eth_rst_n" J16;
+IO_PORT "eth_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_tx_er" T9;
+IO_PORT "gmii_tx_er" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_tx_clk" F14;
+IO_PORT "gmii_tx_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_tx_en" G14;
+IO_PORT "gmii_tx_en" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[7]" P9;
+IO_PORT "gmii_txd[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[6]" P11;
+IO_PORT "gmii_txd[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[5]" T11;
+IO_PORT "gmii_txd[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[4]" M15;
+IO_PORT "gmii_txd[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[3]" F13;
+IO_PORT "gmii_txd[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[2]" G12;
+IO_PORT "gmii_txd[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[1]" T15;
+IO_PORT "gmii_txd[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_txd[0]" J14;
+IO_PORT "gmii_txd[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "cam_sda" N14;
+IO_PORT "cam_sda" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "gmii_rx_clk" B12;
+IO_PORT "gmii_rx_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rx_dv" A12;
+IO_PORT "gmii_rx_dv" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[7]" A14;
+IO_PORT "gmii_rxd[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[6]" B13;
+IO_PORT "gmii_rxd[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[5]" C12;
+IO_PORT "gmii_rxd[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[4]" B14;
+IO_PORT "gmii_rxd[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[3]" G15;
+IO_PORT "gmii_rxd[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[2]" D14;
+IO_PORT "gmii_rxd[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[1]" E15;
+IO_PORT "gmii_rxd[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rxd[0]" F16;
+IO_PORT "gmii_rxd[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "sys_rst_n" T6;
+IO_PORT "sys_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[5]" T2;
+IO_PORT "cam_data[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[4]" T5;
+IO_PORT "cam_data[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[7]" C7;
+IO_PORT "cam_data[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[6]" T3;
+IO_PORT "cam_data[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[3]" P16;
+IO_PORT "cam_data[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[2]" E8;
+IO_PORT "cam_data[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[0]" E9;
+IO_PORT "cam_data[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_href" N16;
+IO_PORT "cam_href" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_data[1]" T4;
+IO_PORT "cam_data[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "sys_clk" H11;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_pclk" D7;
+IO_PORT "cam_pclk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cam_vsync" L16;
+IO_PORT "cam_vsync" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "gmii_rx_er" A15;
+IO_PORT "gmii_rx_er" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;

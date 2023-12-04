@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ov5640_udp_pc">
+    <SubModule name="u_clk_wiz_0"/>
+    <SubModule name="u_i2c_cfg" Register="29" Alu="21" Lut="39" Bsram="1"/>
+    <SubModule name="u_i2c_dri" Register="54" Lut="106"/>
+    <SubModule name="u_cmos_capture_data" Register="35" Lut="39"/>
+    <SubModule name="vip_u0">
+        <SubModule name="VIP_RGB888_YCbCr444_u0" Register="6" Lut="8" Dsp="2"/>
+        <SubModule name="sobel_u0" Register="151" Alu="118" Lut="72" Dsp="1">
+            <SubModule name="u1_data_sync_ext" Register="9" Lut="3"/>
+            <SubModule name="u1_matrix" Register="169" Alu="104" Lut="51" Bsram="4" Ssram="2"/>
+            <SubModule name="sqrt_u0" Register="665" Alu="496" Lut="648" Dsp="16"/>
+            <SubModule name="u1_move_center" Register="117" Lut="180"/>
+        </SubModule>
+        <SubModule name="img_sel_u0" Register="6" Lut="84">
+            <SubModule name="key_filter_d" Register="21" Lut="41"/>
+            <SubModule name="key_filter_a" Register="21" Lut="44"/>
+            <SubModule name="bright_u0" Register="22" Lut="119">
+                <SubModule name="key_filter" Register="21" Lut="43"/>
+            </SubModule>
+            <SubModule name="duibi_u0" Register="22" Lut="461">
+                <SubModule name="VIP_RGB888_YCbCr444_duibi" Register="61" Alu="15" Lut="5" Dsp="3"/>
+                <SubModule name="key_filter_duibi" Register="21" Lut="42"/>
+                <SubModule name="Curve_Contrast_Array_2_u0" Lut="88"/>
+                <SubModule name="Curve_Contrast_Array_3_u0" Lut="14"/>
+                <SubModule name="Curve_Contrast_Array_4_u0" Lut="2"/>
+                <SubModule name="Curve_Contrast_Array_5_u0" Lut="3"/>
+                <SubModule name="Curve_Contrast_Array_7_u0" Lut="8"/>
+                <SubModule name="ycbcr_to_rgb_duibi" Register="50" Alu="88" Lut="12" Dsp="5"/>
+            </SubModule>
+            <SubModule name="key_filter_sobel" Register="21" Lut="42"/>
+            <SubModule name="key_filter_img" Register="21" Lut="41"/>
+            <SubModule name="pinjie_u0">
+                <SubModule name="couper_u0" Register="51" Alu="30" Lut="27"/>
+                <SubModule name="couper_u1" Register="48" Alu="30" Lut="31"/>
+                <SubModule name="cmos_out_u0" Register="85" Alu="61" Lut="52" Bsram="1"/>
+            </SubModule>
+            <SubModule name="key_filter_pinjie" Register="21" Lut="42"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="u_img_data_pkt" Register="142" Alu="23" Lut="188" Bsram="16" Ssram="4"/>
+    <SubModule name="u_eth_top">
+        <SubModule name="tx_clk_inst"/>
+        <SubModule name="u_arp">
+            <SubModule name="u_arp_rx" Register="278" Lut="269"/>
+            <SubModule name="u_arp_tx" Register="113" Lut="223"/>
+            <SubModule name="u_crc32_d8" Register="32" Lut="79"/>
+        </SubModule>
+        <SubModule name="u_udp">
+            <SubModule name="u_udp_tx" Register="191" Alu="112" Lut="337"/>
+            <SubModule name="u_crc32_d8" Register="32" Lut="79"/>
+        </SubModule>
+        <SubModule name="u_eth_ctrl" Register="4" Lut="13"/>
+    </SubModule>
+</Module>

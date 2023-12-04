@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="couper_fifo" Register="31" Alu="31" Lut="13" Bsram="1"/>

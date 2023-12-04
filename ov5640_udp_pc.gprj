@@ -1,0 +1,52 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/arp.v" type="file.verilog" enable="1"/>
+        <File path="src/arp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/arp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_capture_data.v" type="file.verilog" enable="1"/>
+        <File path="src/crc32_d8.v" type="file.verilog" enable="1"/>
+        <File path="src/eth_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/eth_top.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/couper.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/fifo_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/sync_fifo_u.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll_txclk.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_ov5640_rgb565_cfg.v" type="file.verilog" enable="1"/>
+        <File path="src/img_data_pkt.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640_udp_pc.v" type="file.verilog" enable="1"/>
+        <File path="src/start_transfer_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/udp.v" type="file.verilog" enable="1"/>
+        <File path="src/udp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/udp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/bright.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/cmos_out.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/couper.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/pinjie.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/signal_syn.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_2.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_3.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_4.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_5.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_6.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/Curve_Contrast_Array_7.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/VIP_RGB888_YCbCr444.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/data_sync_ext.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/duibi.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/img_sel.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/matrix.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/move_center.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/sobel/sobel.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/sobel/sqrt.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/vip/vip.v" type="file.verilog" enable="1"/>
+        <File path="src/vip/ycbcr2rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640_udp_pc.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
